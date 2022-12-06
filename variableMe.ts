@@ -4,6 +4,6 @@ console.log(greetings);
 
 // number
 
-let userId: number = 334455
+let userId: number = 334455.3
 
 export {}

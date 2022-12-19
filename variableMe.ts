@@ -11,5 +11,10 @@ let isLoggedIn: boolean = false
 
 
 // any
+let hero;
+
+function getHero() {
+  return "thor"
+}
 
 export {}

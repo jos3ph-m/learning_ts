@@ -10,7 +10,7 @@ function signUpUser(name: string, email: string, isPaid: boolean) {
 
 }
 
-let loginUser = (name: string, email: string, isPaid: boolean) => {
+let loginUser = (name: string, email: string, isPaid: boolean = false) => {
 
 }
 

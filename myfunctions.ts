@@ -12,5 +12,6 @@ function signUpUser(name: string, email: string, isPaid: boolean) {
 
 addTwo(5)
 getUpper("joey")
+signUpUser("joey", "joey@joey.com", false)
 
 export {}

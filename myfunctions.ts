@@ -38,7 +38,8 @@ heroes.map((hero): string => {
   return `hero is ${hero}`
 })
 
-function consoleError(errmsg) {
+// this will never return anything ever
+function consoleError(errmsg: string): void {
   console.log(errmsg);
   
 }

@@ -28,4 +28,8 @@ loginUser("j", "j@j.com")
 //   return "200 ok"
 // }
 
+const getHello = (s: string):string => {
+  return ""
+}
+
 export {}

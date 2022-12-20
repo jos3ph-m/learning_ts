@@ -21,4 +21,11 @@ signUpUser("joey", "joey@joey.com", false)
 loginUser("j", "j@j.com")
 
 
+function getValue(myVal: number) {
+  if (myValue > 5) {
+    return true
+  }
+  return "200 ok"
+}
+
 export {}

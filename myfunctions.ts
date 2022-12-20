@@ -1,5 +1,6 @@
-function addTwo(num: number){
-  return num + 2
+function addTwo(num: number):number{
+  // return num + 2
+  return "hello"
 }
 
 function getUpper(val: string) {
@@ -14,7 +15,7 @@ let loginUser = (name: string, email: string, isPaid: boolean = false) => {
 
 }
 
-addTwo(5)
+let myValue = addTwo(5)
 getUpper("joey")
 signUpUser("joey", "joey@joey.com", false)
 loginUser("j", "j@j.com")

@@ -34,4 +34,8 @@ const getHello = (s: string):string => {
 
 const heroes = ["thor", "wolverine", "storm"]
 
+heroes.map(hero => {
+  return `hero is ${hero}`
+})
+
 export {}

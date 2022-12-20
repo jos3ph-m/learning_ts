@@ -38,10 +38,15 @@ heroes.map((hero): string => {
   return `hero is ${hero}`
 })
 
-// this will never return anything ever
+// this will never return anything ever - void type
 function consoleError(errmsg: string): void {
   console.log(errmsg);
   
+}
+
+// handle error with never
+function handleError(errmsg: string): never {
+  throw new Error(errmsg)
 }
 
 export {}

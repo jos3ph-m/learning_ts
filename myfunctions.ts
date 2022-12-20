@@ -32,4 +32,6 @@ const getHello = (s: string):string => {
   return ""
 }
 
+const heroes = ["thor", "wolverine", "storm"]
+
 export {}

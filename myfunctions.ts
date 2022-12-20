@@ -34,7 +34,7 @@ const getHello = (s: string):string => {
 
 const heroes = ["thor", "wolverine", "storm"]
 
-heroes.map(hero => {
+heroes.map((hero): string => {
   return `hero is ${hero}`
 })
 

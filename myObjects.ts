@@ -6,6 +6,6 @@ const User = {
 
 function createUser({name: string, isPaid: boolean}){}
 
-createUser({})
+createUser({name: "joey", isPaid: false})
 
 export {}

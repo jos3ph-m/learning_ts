@@ -1,3 +1,3 @@
 const User = {
-  
+  name: "joey",
 }

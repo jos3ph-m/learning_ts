@@ -3,3 +3,5 @@ const User = {
   email: "j@jm.com",
   isActive: true
 }
+
+function createUser(){}

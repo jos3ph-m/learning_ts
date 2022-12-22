@@ -27,6 +27,6 @@ function createUser(user: User) {
 
 }
 
-createUser()
+createUser({name: "", email: "", isActive: true})
 
 export {}

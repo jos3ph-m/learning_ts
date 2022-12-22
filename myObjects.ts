@@ -8,6 +8,8 @@ function createUser({name: string, isPaid: boolean}){}
 
 createUser({name: "joey", isPaid: false})
 
-function createCourse(){}:{}
+function createCourse():{}{
+  return {}
+}
 
 export {}

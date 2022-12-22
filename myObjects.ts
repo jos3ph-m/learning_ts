@@ -27,4 +27,6 @@ function createUser(user: User) {
 
 }
 
+createUser()
+
 export {}

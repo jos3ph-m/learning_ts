@@ -14,4 +14,8 @@
 //   return {name: "reactJS", price: 399}
 // }
 
+// TYPE ALIAS
+
+
+
 export {}

@@ -17,5 +17,9 @@
 // TYPE ALIAS
 
 
+type User = {
+  name: string,
+}
+
 
 export {}

@@ -23,5 +23,8 @@ type User = {
   isActive: boolean;
 }
 
+function createUser(user: User) {
+
+}
 
 export {}

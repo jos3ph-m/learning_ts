@@ -24,7 +24,7 @@ type User = {
 }
 
 function createUser(user: User): User {
-  return {name: "", email: "", isActive: true}
+  return {name: "", email: "",}
 }
 
 createUser({name: "", email: "", isActive: true})

@@ -43,4 +43,6 @@ let myUser: User = {
   isActive: false
 }
 
+myUser.email = "h@h.com"
+
 export {}

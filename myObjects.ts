@@ -44,5 +44,7 @@ let myUser: User = {
 }
 
 myUser.email = "h@h.com"
+// this wont work:
+myUser._id = "asa"
 
 export {}

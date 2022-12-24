@@ -34,6 +34,7 @@ type User = {
   name: string
   email: string
   isActive: boolean
+  credcardDetails: number
 }
 
 let myUser: User = {

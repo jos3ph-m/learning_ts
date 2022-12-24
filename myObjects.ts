@@ -30,6 +30,7 @@
 // createUser({name: "", email: "", isActive: true})
 
 type User = {
+  _id: string
   name: string
   email: string
   isActive: true

@@ -36,4 +36,8 @@ type User = {
   isActive: true
 }
 
+function createUser(u: User) {
+  
+}
+
 export {}

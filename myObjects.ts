@@ -44,6 +44,14 @@ let myUser: User = {
   isActive: false
 }
 
+type cardNumber = {
+  cardnumber: string
+}
+
+type cardDate = {
+  cardDate: string
+}
+
 myUser.email = "h@h.com"
 // this wont work:
 // myUser._id = "asa"

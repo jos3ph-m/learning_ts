@@ -36,8 +36,9 @@ type User = {
   isActive: true
 }
 
-function createUser(u: User) {
-  
+let myUser: User = {
+  _id: "1234",
+  name: "r",
 }
 
 export {}

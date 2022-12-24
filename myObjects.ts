@@ -33,12 +33,14 @@ type User = {
   readonly _id: string
   name: string
   email: string
-  isActive: true
+  isActive: boolean
 }
 
 let myUser: User = {
   _id: "1234",
   name: "r",
+  email: "r@r.com",
+  isActive: false
 }
 
 export {}

@@ -53,7 +53,7 @@ type cardDate = {
 }
 
 type cardDetails = cardNumber & cardDate & {
-  cvv: number
+  cvv:
 }
 
 myUser.email = "h@h.com"

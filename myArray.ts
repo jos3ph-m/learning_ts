@@ -12,4 +12,4 @@ const allUsers: User[] = []
 superHeroes.push("spiderman")
 heroPower.push(3)
 
-allUsers.push("")
+allUsers.push({name: "",isActive: true})

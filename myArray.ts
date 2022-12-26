@@ -1,3 +1,3 @@
-const superHeroes: [] = []
+const superHeroes: string[] = []
 
 superHeroes.push("spiderman")

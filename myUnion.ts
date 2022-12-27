@@ -23,10 +23,15 @@ joey = {username: "jm", id: 334}
 
 // accepts or returns multiple values
 
-function getDbId(id:number | string) {
-  // pretend make some API calls
-  console.log(`DB id is ${id}`));
-}
+// function getDbId(id:number | string) {
+//   // pretend make some API calls
+//   console.log(`DB id is ${id}`));
+// }
 
 getDbId(3)
 getDbId("3")
+
+function getDbId(id:number | string) {
+  // cant do this
+  id.toLowerCase()
+}

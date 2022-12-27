@@ -20,3 +20,9 @@ let joey: Acct | Admin = {
 }
 
 joey = {username: "jm", id: 334}
+
+// accepts or returns multiple values
+
+function getDbId(id:number | string) {
+  
+}

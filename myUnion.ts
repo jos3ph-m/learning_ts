@@ -42,3 +42,7 @@ function getDbId(id:number | string) {
     id + 2
   }
 }
+
+// array
+
+const data: number[] = [1, 2, 3, "4"]

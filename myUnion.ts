@@ -18,3 +18,5 @@ let joey: Acct | Admin = {
   name: "joey",
   id: 133
 }
+
+joey = {username: "jm", id: 334}

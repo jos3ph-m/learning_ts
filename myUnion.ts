@@ -51,3 +51,7 @@ const data: number[] = [1, 2, 3]
 const data3: (string | number)[] = ["1", 2, "3"]
 
 let pi: 3.14 = 3.14
+
+let seatAllotment: "aisle" | "middle" | "window"
+
+seatAllotment = "aisle"

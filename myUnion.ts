@@ -45,4 +45,4 @@ function getDbId(id:number | string) {
 
 // array
 
-const data: number[] = [1, 2, 3, "4"]
+const data: number[] = [1, 2, 3]

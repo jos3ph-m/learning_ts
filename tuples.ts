@@ -1,1 +1,1 @@
-const user: string[] = ['hc']
+const user: (string | number)[] = ['hc']

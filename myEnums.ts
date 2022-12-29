@@ -3,3 +3,5 @@ enum SeatChoice {
   MIDDLE,
   WINDOW
 }
+
+const hcSeat = SeatChoice.AISLE

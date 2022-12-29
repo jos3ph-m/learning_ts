@@ -1,7 +1,8 @@
 enum SeatChoice {
   AISLE,
   MIDDLE,
-  WINDOW
+  WINDOW,
+  LANE
 }
 
-const hcSeat = SeatChoice.AISLE
+const hcSeat = SeatChoice.LANE

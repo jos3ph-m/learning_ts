@@ -1,8 +1,8 @@
 enum SeatChoice {
-  AISLE = 10,
-  MIDDLE = 22,
-  WINDOW,
-  LANE = 44,
+  AISLE = "aisle",
+  MIDDLE = 3,
+  WINDOW
+  LANE
 }
 
 const hcSeat = SeatChoice.LANE

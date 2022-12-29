@@ -1,5 +1,5 @@
 enum SeatChoice {
-  AISLE,
+  AISLE = 10,
   MIDDLE,
   WINDOW,
   LANE

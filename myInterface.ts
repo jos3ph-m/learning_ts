@@ -3,7 +3,8 @@ interface User {
   email: string,
   userId: number,
   googleId?: string,
-  startTrial: () => string
+  // startTrial: () => string
+  startTrial(): string
 }
 
 const joey: User = {dbId: 22, email: "j@j.com", userId: 2211, startTrial: () => {return "trial started"}}

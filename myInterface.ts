@@ -2,7 +2,8 @@ interface User {
   readonly dbId: number,
   email: string,
   userId: number,
-  googleId?: string
+  googleId?: string,
+  startTrial: () => string
 }
 
 const joey: User = {dbId: 22, email: "j@j.com", userId: 2211}

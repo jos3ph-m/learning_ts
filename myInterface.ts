@@ -3,4 +3,4 @@ interface User {
   userId: number
 }
 
-const joey: User = {}
+const joey: User = {email: "j@j.com", userId: 2211}

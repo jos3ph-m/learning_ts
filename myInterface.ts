@@ -8,6 +8,10 @@ interface User {
   getCoupon(couponname: string, value: number): number,
 }
 
+interface User {
+  
+}
+
 const joey: User = {dbId: 22, email: "j@j.com", userId: 2211, 
 startTrial: () => {return "trial started"}, 
 getCoupon: (name: "joey10", off: 10) => {

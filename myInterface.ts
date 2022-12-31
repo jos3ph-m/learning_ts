@@ -13,7 +13,7 @@ interface User {
 }
 
 interface Admin extends User {
-
+  role: "admin" | "ta" | "learner"
 }
 
 const joey: Admin = {dbId: 22, email: "j@j.com", userId: 2211, githubToken: "github",
